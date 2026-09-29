@@ -6,33 +6,57 @@
   }
   body {
     font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-    background-color: #11141c;
+    background-color: #080b11;
     color: #ffffff;
     overflow-x: hidden;
   }
 
-  h1, h2, h3, .font-display {
+  h1, h2, h3, h4, .font-display {
     font-family: 'Syne', 'Plus Jakarta Sans', sans-serif;
   }
 }
 
-/* Active illuminated letter when car passes */
-.active-letter {
+/* Glassmorphism Panels */
+.glass-panel {
+  background: rgba(13, 20, 36, 0.75);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.glass-pill {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Kinetic Typography States */
+.letter-idle {
+  color: #1e293b;
+  opacity: 0.25;
+  transform: scale(0.96);
+  text-shadow: none;
+}
+
+.letter-active {
   color: #ffffff !important;
-  text-shadow: 0 0 25px rgba(255, 255, 255, 0.9), 0 0 50px rgba(6, 182, 212, 0.8) !important;
-  transform: scale(1.08) translateY(-2px) !important;
-  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  opacity: 1 !important;
+  transform: scale(1.08) translateY(-4px) !important;
+  text-shadow: 
+    0 0 15px rgba(255, 255, 255, 0.9), 
+    0 0 35px rgba(6, 182, 212, 0.9), 
+    0 0 60px rgba(56, 189, 248, 0.7) !important;
+  transition: all 0.15s cubic-bezier(0.16, 1, 0.3, 1) !important;
 }
 
-/* Fine Grid Background */
+/* Background Grid Pattern */
 .bg-grid-pattern {
-  background-size: 40px 40px;
+  background-size: 50px 50px;
   background-image: 
-    linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
 }
 
-/* Smooth pinning reset */
+/* Pin spacer fix */
 .pin-spacer {
-  background: #11141c !important;
+  background: #080b11 !important;
 }
