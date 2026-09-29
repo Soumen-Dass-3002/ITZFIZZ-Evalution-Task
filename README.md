@@ -6,19 +6,19 @@ Featuring a fullscreen scroll-driven 3D interactive hero section powered by **Re
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
-- 🎭 **Scroll-Driven Motion Scrubbing**: 3D spatial centerpiece visual that transforms, tilts, rotates, and explodes into layered depth in real-time as the user scrolls.
-- ⚡ **Initial Load Stagger Timeline**: Smooth load choreography revealing the display headline (`W E L C O M E  I T Z F I Z Z`), sub-elements, 3D visual container, and metrics.
-- 📊 **4 Interactive Floating Statistics**: Metric cards (`58% Engagement`, `23% Bounce Rate`, `27% Conversions`, `40% Load Time`) with visual hierarchy and scroll parallax.
-- 💎 **Itzfizz Cybertech Visual Identity**: Minimalist obsidian aesthetic with glassmorphic cards, glowing radial spheres, and fine grid background.
-- 📱 **Fully Responsive Layout**: Tested across all viewports (1920px, 1440px, 1024px, 768px, 480px, 375px) with `overflow-x: hidden`.
+- **Scroll-Driven Motion Scrubbing**: 3D spatial centerpiece visual that transforms, tilts, rotates, and explodes into layered depth in real-time as the user scrolls.
+- **Initial Load Stagger Timeline**: Smooth load choreography revealing the display headline (`W E L C O M E  I T Z F I Z Z`), sub-elements, 3D visual container, and metrics.
+- **4 Interactive Floating Statistics**: Metric cards (`58% Engagement`, `23% Bounce Rate`, `27% Conversions`, `40% Load Time`) with visual hierarchy and scroll parallax.
+- **Itzfizz Cybertech Visual Identity**: Minimalist obsidian aesthetic with glassmorphic cards, glowing radial spheres, and fine grid background.
+- **Fully Responsive Layout**: Tested across all viewports (1920px, 1440px, 1024px, 768px, 480px, 375px) with `overflow-x: hidden`.
 - ♿ **Accessibility & Reduced Motion**: Automatically detects `prefers-reduced-motion` and degrades gracefully without scroll pinning.
-- 🚀 **GitHub Pages Deployment Ready**: Configured relative base paths in `vite.config.js`.
+- **GitHub Pages Deployment Ready**: Configured relative base paths in `vite.config.js`.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework**: [React.js](https://react.dev/) (v18)
 - **Build Tool**: [Vite](https://vitejs.dev/) (v6)
@@ -28,7 +28,7 @@ Featuring a fullscreen scroll-driven 3D interactive hero section powered by **Re
 
 ---
 
-## 🎬 Scroll Animation Architecture
+## Scroll Animation Architecture
 
 The core scroll interaction is orchestrated using `gsap.context()` inside a custom React hook `useScrollAnimation`:
 
@@ -39,7 +39,7 @@ The core scroll interaction is orchestrated using `gsap.context()` inside a cust
 
 ---
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 ### Prerequisites
 - Node.js (v18 or higher recommended)
@@ -67,7 +67,7 @@ npm run build
 
 ---
 
-## 🌐 Live Demo & Screenshots
+## Live Demo & Screenshots
 
 - **Live Demo**: [https://your-username.github.io/itzfizz-hero-scroll/](https://your-username.github.io/itzfizz-hero-scroll/) *(Placeholder)*
 - **Screenshots**: *(Place screenshots here)*
