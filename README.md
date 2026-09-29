@@ -13,7 +13,7 @@ Featuring a fullscreen scroll-driven 3D interactive hero section powered by **Re
 - **4 Interactive Floating Statistics**: Metric cards (`58% Engagement`, `23% Bounce Rate`, `27% Conversions`, `40% Load Time`) with visual hierarchy and scroll parallax.
 - **Itzfizz Cybertech Visual Identity**: Minimalist obsidian aesthetic with glassmorphic cards, glowing radial spheres, and fine grid background.
 - **Fully Responsive Layout**: Tested across all viewports (1920px, 1440px, 1024px, 768px, 480px, 375px) with `overflow-x: hidden`.
-- ♿ **Accessibility & Reduced Motion**: Automatically detects `prefers-reduced-motion` and degrades gracefully without scroll pinning.
+- **Accessibility & Reduced Motion**: Automatically detects `prefers-reduced-motion` and degrades gracefully without scroll pinning.
 - **GitHub Pages Deployment Ready**: Configured relative base paths in `vite.config.js`.
 
 ---
@@ -74,7 +74,7 @@ npm run build
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Submitted for the **Itzfizz Web Development Internship Evaluation**.
 # ITZFIZZ-Evalution-Task
