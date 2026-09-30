@@ -5,14 +5,7 @@
 
 ---
 
-## 🔗 Submission Links
-
-- 🌐 **Live Webpage**: [https://soumen-dass-3002.github.io/ITZFIZZ-Evalution-Task/](https://soumen-dass-3002.github.io/ITZFIZZ-Evalution-Task/)
-- 💻 **GitHub Repository**: [https://github.com/Soumen-Dass-3002/ITZFIZZ-Evalution-Task](https://github.com/Soumen-Dass-3002/ITZFIZZ-Evalution-Task)
-
----
-
-## 🎯 Assignment Objective
+## Assignment Objective
 
 Create a premium, modern, scroll-driven hero section inspired by the interaction mechanics of the reference demo ([https://paraschaturvedi.github.io/car-scroll-animation/](https://paraschaturvedi.github.io/car-scroll-animation/)) with an original, polished **Itzfizz Digital** brand identity.
 
@@ -26,7 +19,7 @@ Create a premium, modern, scroll-driven hero section inspired by the interaction
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology | Purpose |
 | :--- | :--- |
@@ -69,7 +62,7 @@ itzfizz-hero-scroll/
 
 ---
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 ### 1. Clone the repository
 ```bash
@@ -95,24 +88,24 @@ npm run build
 
 ---
 
-## 🏆 Evaluation Compliance Matrix
+## Evaluation Compliance Matrix
 
 | Requirement | Implementation Status | Notes |
 | :--- | :---: | :--- |
-| **Fullscreen Hero** | ✅ Complete | `min-h-screen` container with obsidian dark theme |
-| **Display Headline** | ✅ Complete | `W E L C O M E   I T Z F I Z Z` with letter spacing & load stagger |
-| **4 Statistics** | ✅ Complete | 58%, 23%, 27%, 40% with animated load & parallax |
-| **Core Visual** | ✅ Complete | 3D spatial glass rig + HTML5 Canvas rotating cyber matrix |
-| **Scroll-Driven Motion** | ✅ Complete | Pinned hero with GSAP ScrollTrigger scrub (`scrub: 1.2`) |
-| **3D Layer Explosion** | ✅ Complete | Code matrix recedes in Z, foreground chips explode in Z |
-| **Performance** | ✅ Complete | GPU transforms only, 60 FPS, `gsap.context()` cleanup |
-| **Responsiveness** | ✅ Complete | Responsive from 375px mobile to 1920px 4K |
-| **Accessibility** | ✅ Complete | Semantic HTML + `prefers-reduced-motion` detection |
-| **GitHub Pages** | ✅ Complete | CI/CD Action configured + `base: './'` relative assets |
+| **Fullscreen Hero** | Complete | `min-h-screen` container with obsidian dark theme |
+| **Display Headline** | Complete | `W E L C O M E   I T Z F I Z Z` with letter spacing & load stagger |
+| **4 Statistics** | Complete | 58%, 23%, 27%, 40% with animated load & parallax |
+| **Core Visual** | Complete | 3D spatial glass rig + HTML5 Canvas rotating cyber matrix |
+| **Scroll-Driven Motion** | Complete | Pinned hero with GSAP ScrollTrigger scrub (`scrub: 1.2`) |
+| **3D Layer Explosion** | Complete | Code matrix recedes in Z, foreground chips explode in Z |
+| **Performance** | Complete | GPU transforms only, 60 FPS, `gsap.context()` cleanup |
+| **Responsiveness** | Complete | Responsive from 375px mobile to 1920px 4K |
+| **Accessibility** | Complete | Semantic HTML + `prefers-reduced-motion` detection |
+| **GitHub Pages** | Complete | CI/CD Action configured + `base: './'` relative assets |
 
 ---
 
-## 👤 Author
+## Author
 
 **Soumen Dass**  
 - **GitHub**: [@Soumen-Dass-3002](https://github.com/Soumen-Dass-3002)  
