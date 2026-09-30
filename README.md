@@ -34,7 +34,7 @@ Create a premium, modern, scroll-driven hero section inspired by the interaction
 
 ---
 
-## 📂 Project Architecture
+## Project Architecture
 
 ```
 itzfizz-hero-scroll/
