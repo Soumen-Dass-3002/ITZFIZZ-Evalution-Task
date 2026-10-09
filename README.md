@@ -1,4 +1,4 @@
-# ITZFIZZ — Scroll-Driven Hero Section & Web Experience
+# ITZFIZZ 
 
 > **Production-Grade Frontend Implementation for Itzfizz Web Development Internship Evaluation**  
 > Built by **Soumen Dass** using **React.js**, **Vite**, **Tailwind CSS**, and **GSAP ScrollTrigger**.
